@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="body.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <p class="name">nFinia</p>
+            <p class="tag">secure digital banking</p>
+        </div>
+
+        <div class="welcomeAndSearch">
+            <span class="instruction">Navigate To:</span>
+            <input type="text" placeholder="" class="">
+            <div class="welcome">
+                <p>Welcome <span class="un">James</span></p>
+                <p><span class="status">LastSeen:</span><span class="date">12/20/2019</span>
+                    <span class="time">11:06 AM PT</span></p>
+            </div>
+        </div>
+        <div class="rightOption">
+            <div class="message">
+                <i class="fa fa-envelope"></i>
+                <span>Message</span>
+            </div>
+            <div class="setting">
+                <i class="fa fa-cog"></i>
+                <span>Settind</span>
+            </div>
+            <div class="message">
+                <i class="fa fa-sign-out"></i>
+                <span>Logout</span>
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <div class="row">
+        <div class="col_1">
+            <div class="tabs">
+                <i class="material-icons">
+                            account_balance
+                            </i>
+                <p>Membership Overview</p>
+            </div>
+            <div class="tabs tab_act">
+                <i class="material-icons">
+                account_balance_wallet
+                </i>
+                <p>Accounts</p>
+            </div>
+            <div class="tabs">
+                <i class="material-icons">
+                payment
+                </i>
+                <p>Pay Bills</p>
+            </div>
+            <div class="tabs">
+                <i class="material-icons">
+                            transform
+                            </i>
+                <p>Transfers</p>
+            </div>
+            <div class="tabs">
+                <i class="material-icons">
+                credit_card
+                </i>
+                <p>deposit Check</p>
+            </div>
+            <div class="tabs">
+                <i class="material-icons">
+                sync
+                </i>
+                <p>Money Manager</p>
+            </div>
+            <div class="tabs">
+                <i class="material-icons">
+                speaker_notes
+                </i>
+                <p>Statement</p>
+            </div>
+            <div class="tabs">
+                <a href="#"><i class="material-icons" style="color: white">
+                touch_app
+                </i><p style="color: white">Additional Service</p>
+            </div>
+            <div class="tabs">
+                    <i class="material-icons">
+                            message
+                            </i><p>Forms</p>
+            </div>
+                
+        </div>
+
+        <div class="col_2">
+            <div class="dir">
+                <a href="#"><span>Home</span></a>
+                <a href="#"><span>Accounts</span></a>
+            </div>
+
+            <div class="Acc_Record">
+                <span class="tbname">Accounts</span>
+                <div class="record">
+                    <a href="#">
+                        <i class="fa fa-sort"></i>
+                        <span>Recoreder Memberships</span>
+                    </a>
+                </div>
+                <div class="option">
+                    <span>Default Home Page</span>
+                    <button class="active" type="radio" value="true" name="homepage">Yes</button>
+                    <button type="radio" value="false" name="homepage">No</button>
+                    <!-- <input type="radio" value="true" name="homepage" style="width: 10px">
+                    <label for="">Yes</label>
+                    <input type="radio" value="false" name="homepage">
+                    <label for="">No</label> -->
+                </div>
+            </div>
+            <div class="out">
+                <div class="out_container">
+                    <div class="dd">
+                        <select name="travel_arriveVia" id="travel_arriveVia">
+                            <option selected="selected">All members</option>
+                            
+                            </select>
+
+                    </div>
+                    <div class="dd">
+                        <select name="travel_arriveVia" id="travel_arriveVia">
+                                    <option selected="selected">Membership Types</option>
+                                    
+                                    </select>
+
+                    </div>
+                    <div class="dd">
+                        <select name="travel_arriveVia" id="travel_arriveVia">
+                                    <option selected="selected">Saving</option>
+                                    
+                                    </select>
+
+                    </div>
+                </div>
+
+                <div class="memb_1">
+                    <span class="memb_title">Membership Number:</span>
+                    <span>12345678</span>
+                </div>
+                <div class="memb_detail">
+                    <div class="topStats">
+                        <div class="titles">
+                            <span>POD Saving Account (#1)</span>
+                            <img src="" alt="">
+                        </div>
+                        <div class="status">
+                            <div class="acc">
+                                <span class="s">Available Amount<i class="fa fa-info-circle" style="font-style: italic"></i></span>
+                                <span class="amt">$25.57</span>
+                            </div>
+                            <div class="acc">
+                                <span class="s">Current Balance<i class="fa fa-info-circle" style="font-style: italic"></i></span>
+                                <span class="amt">$85.57</span>
+                            </div>
+                            <div class="acc">
+                                <span class="s">Last Dividend<i class="fa fa-info-circle" style="font-style: italic"></i></span>
+                                <span class="amt">$0.12</span>
+                            </div>
+                            <div class="acc">
+                                <span class="s">ACH Number</span>
+                                <img src="" alt="">
+                                <span class="amt">********<i class="fa fa-eye"></i></span>
+                            </div>
+                        </div>
+                        <div class="view">
+                            <div>
+
+                                <span class="active">Quick View</span>
+                            </div>
+                            <span>Account History</span>
+                            <div>
+                                <span>Tranfer Funds<i class="fa fa-caret-down" style="padding:3px"></i></span>
+
+                            </div>
+                            <span>Deposit Check</span>
+                            <span>Cards</span>
+                            <span>Account History</span>
+                        </div>
+                    </div>
+                    <div class="table_main">
+                        <table class="table">
+                            <thread>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Description</th>
+                                    <th>Withdrawals</th>
+                                    <th>Deposits</th>
+                                    <th>Balance</th>
+                                </tr>
+                            </thread>
+                            <tbody>
+                                <tr class="row_1">
+                                    <td>
+                                        <div class="t_date">
+                                            <span class="day">38</span>
+                                            <span class="my">Jun 2</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_desc">
+                                            <span class="divi">DIVIDEND</span>
+                                            <span class="post">Post Date & Time: <span
+                                            class="date">06/30/2019</span> <span class="time">12:00
+                                            AM</span></span>
+                                            <div class="link_desc">
+                                                <span>(DIVIDEND)</span>
+                                                <a href="#">Inquire</a>
+
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_withdraw">
+                                            <span class="withdraw_amt">55.57</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_deposits">
+                                            <span class="deposit_amt">$0.12</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_bal">
+                                            <span class="bal_amt">75.57</span>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr class="row_2">
+                                    <td>
+                                        <div class="t_date">
+                                            <span class="day">31</span>
+                                            <span class="my">May, 2019</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_desc">
+                                            <span class="divi">DIVIDEND</span>
+                                            <span class="post">Post Date & Time: <span
+                                                    class="date">06/30/2019</span> <span class="time">12:00
+                                                    AM</span></span>
+                                            <div class="link_desc">
+                                                <span>(DIVIDEND)</span>
+                                                <a href="#">Inquire</a>
+                                                <img src="" alt="">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_withdraw">
+                                            <span class="withdraw_amt">-</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_deposits">
+                                            <span class="deposit_amt">$0.12</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_bal">
+                                            <span class="bal_amt">$75.57</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="row_1">
+                                    <td>
+                                        <div class="t_date">
+                                            <span class="day">30</span>
+                                            <span class="my">Jun, 2019</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_desc">
+                                            <span class="divi">DIVIDEND</span>
+                                            <span class="post">Post Date & Time: <span
+                                                    class="date">06/30/2019</span> <span class="time">12:00
+                                                    AM</span></span>
+                                            <div class="link_desc">
+                                                <span>(DIVIDEND)</span>
+                                                <a href="#">Inquire</a>
+                                                <img src="" alt="">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_withdraw">
+                                            <span class="withdraw_amt">-</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_deposits">
+                                            <span class="deposit_amt">$0.12</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_bal">
+                                            <span class="bal_amt">$75.57</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="row_2">
+                                    <td>
+                                        <div class="t_date">
+                                            <span class="day">30</span>
+                                            <span class="my">Jun, 2019</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_desc">
+                                            <span class="divi">DIVIDEND</span>
+                                            <span class="post">Post Date & Time: <span
+                                                    class="date">06/30/2019</span> <span class="time">12:00
+                                                    AM</span></span>
+                                            <div class="link_desc">
+                                                <span>(DIVIDEND)</span>
+                                                <a href="#">Inquire</a>
+                                                <img src="" alt="">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_withdraw">
+                                            <span class="withdraw_amt">-</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_deposits">
+                                            <span class="deposit_amt">$0.12</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_bal">
+                                            <span class="bal_amt">$75.57</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="row_1">
+                                    <td>
+                                        <div class="t_date">
+                                            <span class="day">30</span>
+                                            <span class="my">Jun, 2019</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_desc">
+                                            <span class="divi">DIVIDEND</span>
+                                            <span class="post">Post Date & Time: <span
+                                                    class="date ">06/30/2019</span> <span class="time ">12:00
+                                                    AM</span></span>
+                                            <div class="link_desc ">
+                                                <span>(DIVIDEND)</span>
+                                                <a href="# ">Inquire</a>
+
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_withdraw ">
+                                            <span class="withdraw_amt ">-</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_deposits">
+                                            <span class="deposit_amt">$0.12</span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="t_bal">
+                                            <span class="bal_amt ">$75.57</span>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
+                <div class="memb_2 ">
+                    <span class="memb_title ">Membership Number:</span>
+                    <span>123511250</span>
+                </div>
+
+                <div class="memb_detail ">
+
+                    <div class="topstats ">
+                        <div class="titles ">
+                            <span>SAV1 (#1)</span>
+
+                        </div>
+                        <div class="status ">
+                            <div class="acc ">
+                                <span class="s">Available Balance<i class="fa fa-info-circle" style="font-style: italic"></i></span>
+
+                                <span class="amt">$21,524.01</span>
+                            </div>
+                            <div class="acc ">
+                                <span class="s">Current Balance<i class="fa fa-info-circle" style="font-style: italic"></i></span>
+
+                                <span class="amt ">$21,524.01</span>
+                            </div>
+                            <div class="acc ">
+                                <span class="s">Last Dividend<i class="fa fa-info-circle" style="font-style: italic"></i></span>
+                                <span class="amt ">$35.05</span>
+                            </div>
+                            <div class="acc ">
+                                <span class="s">ACH Number</span>
+                                <span class="amt ">************<i class="fa fa-eye"></i></span>
+
+                            </div>
+                        </div>
+
+                        <div class="view ">
+                            <div>
+
+                                <span class="active ">Quick View</span>
+                            </div>
+                            <span>View Account History</span>
+                            <div>
+                                <span>Transfer Funds<i class="fa fa-caret-down" style="padding:3px"></i></span>
+
+                            </div>
+                            <span>Deposit Check</span>
+                            <span>Cards</span>
+                            <span>Account Inquiry</span>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="rightContent ">
+
+            <div class="myPayments ">
+
+                <div class="topOrange ">
+
+                    <span class="my_pay"><span class="material-icons ic_cal">
+                            calendar_today</span> My Payments</span>
+                </div>
+                <div class="bottomData ">
+                    <div class="leftDate ">
+                        <span class="lday ">11</span>
+                        <span class="lmonth ">Oct</span>
+                    </div>
+                    <div class="middleAmount ">
+
+                        <span style="font-size:10px">LN146</span>
+                        <span class="amount" style="font-size: 15px"><b>$386.13</b></span>
+
+                    </div>
+                    <div class="rightPayment ">
+                        <button><span>Make<br>Payment</span></button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="myBillPay ">
+                <div class="topOrange ">
+
+                    <span class="my_pay"><span class="material-icons ic_cal">
+                        calendar_today</span> My Bill Pay</span>
+                </div>
+                <div class="bottomData ">
+                    <div class="noSchedule ">
+                        <span>No schedules available</span>
+                    </div>
+                </div>
+            </div>
+            <div class="quickLinks ">
+                <div class="topOrange ">
+
+                    <span class="my_pay"><span class="fa fa-link ic_cal"></span>Quick Links</span>
+                </div>
+                <div class="bottomData ">
+                    <ul class="rightLinkList ">
+                        <a href="# ">
+                            <li>Change Password</li>
+                        </a>
+                        <a href="# ">
+                            <li>View FICO<sup>&reg;</sup> Score</li>
+                        </a>
+                        <a href="# ">
+                            <li>Submit Travel Notifications</li>
+                        </a>
+                        <a href="# ">
+                            <li>Apply for Loans</li>
+                        </a>
+                        <a href="# ">
+                            <li>Activate Cards</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="quickTransfer ">
+                <div class="topOrange ">
+
+                    <span class="my_pay"><span class="fa fa-exchange ic_cal"></span>Quick Transfer</span>
+                </div>
+                <div class="bottomData ">
+                    <div class="formStuff ">
+                        <label for=" ">From Account</label>
+                        <input type="text " placeholder="Select From Account ">
+                        <label for=" ">To Account</label>
+                        <input type="text " placeholder="Select To Account " disabled>
+                        <label for=" ">Amount</label>
+                        <div>
+
+                            <input type="text " placeholder="0.00 ">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+    <footer>
+
+        <div class="top ">
+            <div class="1 ">
+                <p class="header ">Need Assistance?</p>
+                <p>+1 503 226 3939</p>
+                <p>contact@tyfone.com</p>
+            </div>
+            <div class="2 ">
+                <p class="header ">nFinia Phone Support Hours</p>
+                <p>Monday to Friday</p>
+                <p>7:30am - 6:00pm</p>
+                <p>Saturday</p>
+                <p>9:00am - 1:00pm</p>
+            </div>
+            <div class="3 ">
+                <p class="header ">ABA/Routing Number</p>
+                <p>123456789</p>
+            </div>
+            <div class="4 ">
+                <p class="header ">Mailing Address</p>
+                <p>Tyfone Inc.</p>
+                <p>5331 SW Macadam Ave</p>
+                <p>Suite 251</p>
+                <p>Portland, OR 97239</p>
+            </div>
+            <div class="5 ">
+                <p class="header ">Key Links</p>
+                <p>Locations</p>
+                <p>Rates</p>
+                <p>Text Banking</p>
+            </div>
+        </div>
+
+        <div class="bottom ">
+
+            <div class="bLeft ">
+
+
+                <p>Your savings federally insured to at least $250,000 and backed by the full faith and credit of the United States Government. National Credit Union Administration, a U.S. Government Agency
+                </p>
+
+            </div>
+
+            <div class="bMiddle ">
+                <p>Privacy</p>
+                <p>Security</p>
+            </div>
+
+            <div class="bRight ">
+                <p>&copy; nFinia. All rights reserved</p>
+                <div>
+                    <span>Powered by
+                    <img src="img/logo.png " alt=" "></span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

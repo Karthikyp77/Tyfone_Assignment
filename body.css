@@ -1,0 +1,406 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 0 10%;
+}
+
+.col_1 {
+    flex: 0.8;
+    flex-direction: column;
+    background-color: rgb(0, 56, 139);
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1px;
+    justify-content: center;
+    padding: 6% 20%;
+    text-align: center;
+    font-size: 0.9em;
+    color: white;
+}
+
+.col_1>.tab_act {
+    background-color: white;
+    color: rgb(0, 56, 139);
+}
+
+.tabs i {
+    font-size: 3.5em;
+    margin-bottom: 7%;
+}
+
+.col_2 {
+    flex: 7;
+    margin: 0% 1% 0%;
+}
+
+.dir {
+    display: flex;
+    margin-bottom: 1%;
+    font-size: 0.8em;
+}
+
+.dir a::after {
+    content: '>';
+}
+
+.Acc_Record {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tbname {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: rgb(0, 56, 139);
+}
+
+.option span {
+    margin-right: 20px;
+}
+
+.option label {
+    margin-right: 5px;
+}
+
+.option button {
+    width: 70px;
+    height: 2em;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.option>.active {
+    background-color: rgb(0, 56, 139);
+    color: white;
+}
+
+.out {
+    border: 1px solid rgb(221, 221, 221);
+    padding: 1px;
+}
+
+.out_container {
+    display: flex;
+}
+
+.dd {
+    width: 40%;
+    padding: 2%;
+}
+
+.dd select {
+    width: 90%;
+    height: 35px;
+}
+
+.memb_1 {
+    margin-left: 10px;
+}
+
+.memb_title {
+    font-weight: bold;
+}
+
+.memb_detail,
+.memb_detail2 {
+    border-left: 5px solid orange;
+    border-right: 1px solid rgb(221, 221, 221);
+    border-right: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.titles span {
+    color: rgb(0, 56, 139);
+}
+
+.titles,
+.status,
+.view {
+    padding: 1%;
+}
+
+.titles {
+    display: flex;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+}
+
+.acc {
+    display: flex;
+    flex-direction: column;
+}
+
+.s {
+    color: rgb(139, 135, 138);
+    font-size: 15px;
+}
+
+.amt {
+    font-weight: bold;
+}
+
+.view {
+    display: flex;
+}
+
+.view span {
+    padding-right: 10px;
+}
+
+
+/* table */
+
+.table {
+    width: 100%;
+}
+
+.row_1 {
+    background-color: rgb(248, 245, 239);
+}
+
+td {
+    padding: 0.5%;
+}
+
+.t_date,
+.t_desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.t_date {
+    text-align: center;
+}
+
+.t_date .day {
+    font-weight: 600;
+}
+
+.t_date .my {
+    font-weight: 300;
+}
+
+.t_withdraw,
+.t_deposits,
+.t_bal {
+    text-align: right;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th,
+td {
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.rightContent {
+    flex: 1.1;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightContent>* {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomData {
+    display: flex;
+}
+
+.my_pay {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.ic_cal {
+    padding-right: 10px;
+}
+
+.leftDate,
+.middleAmount {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftDate {
+    width: 9em;
+    background-color: rgb(0, 56, 139);
+    color: white;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.lday {
+    font-size: 25px;
+}
+
+.lmonth {
+    font-size: 10px;
+}
+
+.middleAmount {
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.middleAmount span {
+    font-size: 12px;
+}
+
+.rightPayment {
+    margin-left: 40%;
+    margin-top: 2px;
+}
+
+.noSchedule {
+    border-bottom: 1px solid black;
+    margin: 5px;
+}
+
+.noSchedule span {
+    background-color: rgb(233, 132, 132);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    vertical-align: middle;
+    margin: 15px;
+    margin-left: 35px;
+}
+
+.rightPayment button {
+    background-color: rgb(93, 89, 92);
+    float: right;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: white;
+}
+
+.rightLinkList a {
+    border-bottom: 1px solid gray;
+    color: black;
+}
+
+.rightLinkList li {
+    display: flex;
+    border-block-end-width: 20px;
+    border-bottom: 1px solid rgb(184, 178, 178);
+    border-left: 1px solid rgb(184, 178, 178);
+    width: 100%;
+    padding: 5px;
+}
+
+.quickTranfer {
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.formStuff label {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.formStuff input {
+    padding: 0.5%;
+    width: 130%;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.formStuff input::placeholder {
+    font-size: 15px;
+}
+
+.quickTranfer .bottomData {
+    display: flex;
+    flex-direction: column;
+}
+
+.formStuff {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    color: rgb(238, 238, 238)
+}
+
+footer .top {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(59, 59, 59);
+    padding: 1%, 5%;
+    color: rgb(238, 238, 238);
+    font-size: 0.8em;
+}
+
+footer .bottom {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 5%;
+    color: rgb(255, 255, 255);
+    font-size: 0.7em;
+}
+
+.bLeft {
+    display: flex;
+    width: 30%;
+}
+
+.bMiddle {
+    display: flex;
+    width: 30%;
+    padding-left: 10%;
+}
+
+.bMiddle>* {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.bRight {
+    width: 30%;
+}
+
+footer .top .header {
+    font-weight: 600;
+    margin-bottom: 10%;
+}
+
+footer p:not([class^="header"]) {
+    margin-bottom: 10px;
+}
+
+.topOrange {
+    background-color: orange;
+    color: white;
+}
+
+.view,
+.col_1,
+.tabs {
+    background-color: rgb(0, 56, 139);
+    color: white;
+}

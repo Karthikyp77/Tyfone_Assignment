@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid orange;
+    padding: 0.5%;
+}
+
+.logo {
+    flex: 1;
+    padding-left: 1%
+}
+
+.logo .name {
+    color: rgb(0, 56, 139);
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+.logo .tag {
+    color: orange;
+    font-weight: 600;
+    margin-top: -7px;
+    font-size: 0.5em;
+    word-spacing: 1px;
+}
+
+.welcomeAndSearch {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.welcomeAndSearch .instruction {
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-right: 1%;
+}
+
+.welcomeAndSearch input {
+    padding: 0.5%;
+    width: 30%;
+    margin-right: 1%;
+}
+
+.welcomeAndSearch input::placeholder {
+    font-size: 0.8em;
+}
+
+.welcomeAndSearch .welcome p:first-child {
+    font-size: 0.9em;
+}
+
+.welcomeAndSearch .welcome .un {
+    font-weight: 700;
+}
+
+.welcomeAndSearch .welcome p:nth-child(2) {
+    font-size: 0.7em;
+}
+
+.rightOption {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+.rightOption>* {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 5%
+}
+
+.rightOption>*i {
+    font-size: 1.7em;
+    color: rgb(0, 56, 139);
+}
